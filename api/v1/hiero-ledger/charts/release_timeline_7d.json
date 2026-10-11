@@ -1,0 +1,98 @@
+{
+ "schema_version": 1,
+ "id": "release_timeline_7d",
+ "kind": "events",
+ "org": "hiero-ledger",
+ "source": "release_timeline.csv",
+ "metric": "releases",
+ "unit": "Published releases",
+ "population": "Each published GitHub release, by repository and publication time (UTC). Drafts are excluded; prereleases are marked. Repositories with no release in the window are not shown.",
+ "dimensions": [
+  "repo",
+  "type"
+ ],
+ "category": {
+  "key": "repo",
+  "label": "Repository"
+ },
+ "label": {
+  "key": "tag_name",
+  "label": "Tag"
+ },
+ "types": [
+  {
+   "key": "release",
+   "label": "Release",
+   "color": "var(--chart-2)"
+  },
+  {
+   "key": "prerelease",
+   "label": "Prerelease",
+   "color": "var(--chart-1)"
+  }
+ ],
+ "categories": [
+  "hiero-cryptography",
+  "solo-charts",
+  "hiero-block-node",
+  "hiero-sdk-python",
+  "solo"
+ ],
+ "window": {
+  "kind": "trailing",
+  "days": 7,
+  "end": "2026-10-11T17:11:48.232234+00:00"
+ },
+ "rows": [
+  {
+   "repo": "hiero-block-node",
+   "time": "2026-10-05T18:03:31Z",
+   "tag_name": "v0.44.2",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-cryptography",
+   "time": "2026-10-06T15:08:38Z",
+   "tag_name": "v3.18.0",
+   "type": "release"
+  },
+  {
+   "repo": "solo",
+   "time": "2026-10-06T16:07:29Z",
+   "tag_name": "v0.92.0",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-cryptography",
+   "time": "2026-10-06T23:32:43Z",
+   "tag_name": "v3.19.0",
+   "type": "release"
+  },
+  {
+   "repo": "solo-charts",
+   "time": "2026-10-08T01:32:37Z",
+   "tag_name": "v0.67.0-alpha.1",
+   "type": "prerelease"
+  },
+  {
+   "repo": "solo-charts",
+   "time": "2026-10-08T02:06:42Z",
+   "tag_name": "v0.67.0-alpha.2",
+   "type": "prerelease"
+  },
+  {
+   "repo": "hiero-cryptography",
+   "time": "2026-10-08T11:14:05Z",
+   "tag_name": "v3.19.1",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-sdk-python",
+   "time": "2026-10-11T17:00:18Z",
+   "tag_name": "v0.3.0",
+   "type": "release"
+  }
+ ],
+ "generated_at": "2026-10-11T17:11:48.232234+00:00",
+ "stale": false
+}
