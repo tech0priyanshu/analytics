@@ -28,7 +28,7 @@
  "window": {
   "kind": "trailing",
   "days": 30,
-  "end": "2026-10-11T17:13:40.631836+00:00"
+  "end": "2026-10-16T13:52:39.327296+00:00"
  },
  "series": [
   {
@@ -61,9 +61,9 @@
  "rows": [
   {
    "repo": "analytics",
-   "Unknown": 0,
+   "Unknown": 2,
    "Good First Issue": 0,
-   "Beginner": 0,
+   "Beginner": 1,
    "Intermediate": 3,
    "Advanced": 0
   },
@@ -72,7 +72,7 @@
    "Unknown": 1,
    "Good First Issue": 3,
    "Beginner": 9,
-   "Intermediate": 2,
+   "Intermediate": 3,
    "Advanced": 1
   },
   {
@@ -92,6 +92,6 @@
    "Advanced": 0
   }
  ],
- "generated_at": "2026-10-11T17:13:40.631836+00:00",
+ "generated_at": "2026-10-16T13:52:39.327296+00:00",
  "stale": false
 }

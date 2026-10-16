@@ -33,7 +33,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-11T17:11:06.297704+00:00"
+  "end": "2026-10-16T13:51:37.952484+00:00"
  },
  "series": [
   {
@@ -46,13 +46,13 @@
  "rows": [
   {
    "status": "Present",
-   "count": 28
+   "count": 29
   },
   {
    "status": "Missing",
-   "count": 16
+   "count": 15
   }
  ],
- "generated_at": "2026-10-11T17:11:06.297704+00:00",
+ "generated_at": "2026-10-16T13:51:37.952484+00:00",
  "stale": false
 }

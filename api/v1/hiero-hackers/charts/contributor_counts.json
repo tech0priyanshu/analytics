@@ -33,7 +33,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-11T17:11:57.291147+00:00"
+  "end": "2026-10-16T13:52:23.659808+00:00"
  },
  "series": [
   {
@@ -46,7 +46,7 @@
  "rows": [
   {
    "repo": "analytics",
-   "contributors": 24
+   "contributors": 23
   },
   {
    "repo": "governance",
@@ -133,6 +133,6 @@
    "contributors": 1
   }
  ],
- "generated_at": "2026-10-11T17:11:57.291147+00:00",
+ "generated_at": "2026-10-16T13:52:23.659808+00:00",
  "stale": false
 }

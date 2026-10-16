@@ -381,10 +381,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-10-11T17:14:46.472064+00:00",
+ "generated_at": "2026-10-16T13:53:09.099305+00:00",
  "provenance": {
   "git_sha": "7b92029",
-  "data_as_of": "2026-10-11T15:24:42.642136+00:00"
+  "data_as_of": "2026-10-11T16:45:18.221317+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -393,7 +393,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1488,
+     "row_count": 1496,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -428,7 +428,7 @@
      "id": "repo",
      "macro": "Governance",
      "title": "Roles and recent activity by repo",
-     "row_count": 770,
+     "row_count": 760,
      "path": "hiero-ledger/repo.json"
     },
     {
@@ -442,7 +442,7 @@
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2880,
+     "row_count": 2873,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
@@ -456,14 +456,14 @@
      "id": "affiliations",
      "macro": "Governance",
      "title": "Organisation affiliations \u2014 reference",
-     "row_count": 104,
+     "row_count": 103,
      "path": "hiero-ledger/affiliations.json"
     },
     {
      "id": "committeraffiliations",
      "macro": "Governance",
      "title": "Committer affiliations \u2014 reference",
-     "row_count": 130,
+     "row_count": 129,
      "path": "hiero-ledger/committeraffiliations.json",
      "absorbed_by": "affiliations"
     },
@@ -478,7 +478,7 @@
      "id": "committerrepodiversity",
      "macro": "Governance",
      "title": "Committer organisation diversity by repo",
-     "row_count": 30,
+     "row_count": 28,
      "path": "hiero-ledger/committerrepodiversity.json",
      "absorbed_by": "repodiversity"
     },
@@ -500,14 +500,14 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 858,
+     "row_count": 859,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
      "id": "hip-unknown",
      "macro": "HIPs",
      "title": "Unknown HIP numbers (review)",
-     "row_count": 8,
+     "row_count": 9,
      "path": "hiero-ledger/hip-unknown.json"
     },
     {
@@ -1167,7 +1167,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-10-11T17:13:35.346680+00:00"
+      "generated_at": "2026-10-16T13:52:36.241260+00:00"
      }
     },
     {
@@ -1243,7 +1243,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-10-11T17:13:35.341908+00:00"
+      "generated_at": "2026-10-16T13:52:36.236892+00:00"
      }
     },
     {
@@ -1530,7 +1530,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1488,
+      "value": 1496,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -1567,7 +1567,7 @@
      },
      {
       "label": "open PRs %",
-      "value": "72%",
+      "value": "73%",
       "note": "The share of contributors who have authored at least one pull request. Used as the proxy for \u201cwrites code\u201d: commits themselves are not ingested, only PRs.",
       "methodology": [
        "Count contributors whose all-time PRs-opened total is above zero.",
@@ -1597,7 +1597,7 @@
     "Governance": [
      {
       "label": "maintainers",
-      "value": 104,
+      "value": 103,
       "note": "People whose *highest* role anywhere in the organisation is maintainer. Counted at the highest role so the role tiles partition the permission-holders without double-counting.",
       "methodology": [
        "Resolve every person's role per repository from the governance config's team\u2192permission grants (maintain/admin \u2192 maintainer, write \u2192 committer, triage \u2192 triage).",
@@ -1607,7 +1607,7 @@
      },
      {
       "label": "committers",
-      "value": 130,
+      "value": 129,
       "note": "People whose highest role anywhere is committer (write access, but not maintainer).",
       "methodology": [
        "Resolve every person's role per repository from the governance config's team\u2192permission grants.",
@@ -1647,7 +1647,7 @@
      },
      {
       "label": "quiet permission-holders (180d+)",
-      "value": 98,
+      "value": 97,
       "note": "People holding a granted role who have had no tracked activity for 180 days or more \u2014 an access-hygiene list, not a judgement about the people on it.",
       "methodology": [
        "Take everyone holding a triage, committer, or maintainer role in any repository.",
@@ -1688,7 +1688,7 @@
      },
      {
       "label": ">3x their own typical gap",
-      "value": 6,
+      "value": 5,
       "note": "Repos currently more than 3x past their own typical release gap \u2014 furthest behind *relative to their own pace*, not by raw days. A repo with a naturally long cadence isn't counted just for having one; only repos with an established cadence (2+ releases) are eligible.",
       "methodology": [
        "For each repo with 2+ releases, compute the median gap between consecutive releases.",
@@ -1705,7 +1705,7 @@
     },
     "contributors": {
      "path": "hiero-ledger/entities/contributors.json",
-     "count": 1488
+     "count": 1496
     }
    }
   },
@@ -2179,6 +2179,20 @@
           "kind": "events",
           "path": "hiero-hackers/charts/release_timeline_365d.json"
          }
+        },
+        {
+         "label": "1 month",
+         "interactive": {
+          "kind": "events",
+          "path": "hiero-hackers/charts/release_timeline_30d.json"
+         }
+        },
+        {
+         "label": "Week",
+         "interactive": {
+          "kind": "events",
+          "path": "hiero-hackers/charts/release_timeline_7d.json"
+         }
         }
        ],
        "note": "One dot per release, diamonds for prereleases. Repos with zero releases in the selected span aren't shown on the chart (see the table for those).",
@@ -2266,7 +2280,7 @@
     "Releases": [
      {
       "label": "repos with releases",
-      "value": "7 of 28",
+      "value": "8 of 28",
       "note": "How many repos have ever published a GitHub Release, out of the org's full repo count. Most zero-release repos are docs/governance/meta repos, not neglected code \u2014 this tile is the denominator the other release tiles are scoped to, so that scoping is visible.",
       "methodology": [
        "Fetch every published, non-draft GitHub Release for each repo in the org.",
@@ -2285,7 +2299,7 @@
      },
      {
       "label": ">3x their own typical gap",
-      "value": 1,
+      "value": 0,
       "note": "Repos currently more than 3x past their own typical release gap \u2014 furthest behind *relative to their own pace*, not by raw days. A repo with a naturally long cadence isn't counted just for having one; only repos with an established cadence (2+ releases) are eligible.",
       "methodology": [
        "For each repo with 2+ releases, compute the median gap between consecutive releases.",
