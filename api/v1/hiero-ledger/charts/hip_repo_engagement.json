@@ -33,7 +33,7 @@
  "window": {
   "kind": "all",
   "days": null,
-  "end": "2026-10-21T14:29:04.295274+00:00"
+  "end": "2026-10-26T16:04:01.974706+00:00"
  },
  "series": [
   {
@@ -58,38 +58,38 @@
   {
    "repo": "hiero-consensus-node",
    "distinct_hips_merged": 38,
-   "matched_prs": 229,
-   "total_prs": 5289
+   "matched_prs": 230,
+   "total_prs": 5324
   },
   {
    "repo": "hiero-mirror-node",
    "distinct_hips_merged": 35,
    "matched_prs": 194,
-   "total_prs": 3715
+   "total_prs": 3735
   },
   {
    "repo": "hiero-sdk-js",
    "distinct_hips_merged": 14,
    "matched_prs": 40,
-   "total_prs": 1143
+   "total_prs": 1177
   },
   {
    "repo": "hiero-sdk-go",
    "distinct_hips_merged": 14,
    "matched_prs": 24,
-   "total_prs": 489
+   "total_prs": 491
   },
   {
    "repo": "solo",
    "distinct_hips_merged": 13,
    "matched_prs": 13,
-   "total_prs": 2460
+   "total_prs": 2495
   },
   {
    "repo": "hiero-sdk-java",
    "distinct_hips_merged": 13,
    "matched_prs": 27,
-   "total_prs": 621
+   "total_prs": 629
   },
   {
    "repo": "hiero-sdk-cpp",
@@ -101,13 +101,13 @@
    "repo": "hiero-json-rpc-relay",
    "distinct_hips_merged": 12,
    "matched_prs": 14,
-   "total_prs": 1285
+   "total_prs": 1294
   },
   {
    "repo": "hiero-mirror-node-explorer",
    "distinct_hips_merged": 12,
    "matched_prs": 17,
-   "total_prs": 1055
+   "total_prs": 1065
   },
   {
    "repo": "hiero-sdk-swift",
@@ -116,40 +116,40 @@
    "total_prs": 137
   },
   {
+   "repo": "sdk-collaboration-hub",
+   "distinct_hips_merged": 10,
+   "matched_prs": 27,
+   "total_prs": 179
+  },
+  {
    "repo": "hiero-sdk-rust",
    "distinct_hips_merged": 9,
    "matched_prs": 10,
    "total_prs": 279
   },
   {
-   "repo": "sdk-collaboration-hub",
-   "distinct_hips_merged": 9,
-   "matched_prs": 26,
-   "total_prs": 177
-  },
-  {
    "repo": "hiero-block-node",
    "distinct_hips_merged": 5,
    "matched_prs": 11,
-   "total_prs": 1645
+   "total_prs": 1658
   },
   {
    "repo": "hiero-sdk-python",
    "distinct_hips_merged": 5,
    "matched_prs": 5,
-   "total_prs": 1075
+   "total_prs": 1084
   },
   {
    "repo": "hiero-website",
    "distinct_hips_merged": 4,
    "matched_prs": 4,
-   "total_prs": 399
+   "total_prs": 407
   },
   {
    "repo": "hiero-contracts",
    "distinct_hips_merged": 4,
    "matched_prs": 4,
-   "total_prs": 87
+   "total_prs": 88
   },
   {
    "repo": "governance",
@@ -167,7 +167,7 @@
    "repo": "hiero-cli",
    "distinct_hips_merged": 2,
    "matched_prs": 2,
-   "total_prs": 563
+   "total_prs": 564
   },
   {
    "repo": "tsc",
@@ -185,49 +185,49 @@
    "repo": "hiero-docs",
    "distinct_hips_merged": 1,
    "matched_prs": 1,
-   "total_prs": 63
+   "total_prs": 64
   },
   {
    "repo": "hiero-gradle-conventions",
    "distinct_hips_merged": 0,
    "matched_prs": 0,
-   "total_prs": 405
+   "total_prs": 407
   },
   {
    "repo": "hiero-cryptography",
    "distinct_hips_merged": 0,
    "matched_prs": 0,
-   "total_prs": 390
+   "total_prs": 395
   },
   {
    "repo": "hiero-enterprise-java",
    "distinct_hips_merged": 0,
    "matched_prs": 0,
-   "total_prs": 215
+   "total_prs": 217
   },
   {
    "repo": "solo-charts",
    "distinct_hips_merged": 0,
    "matched_prs": 0,
-   "total_prs": 209
+   "total_prs": 211
   },
   {
    "repo": "solo-docs",
    "distinct_hips_merged": 0,
    "matched_prs": 0,
-   "total_prs": 181
+   "total_prs": 184
   },
   {
    "repo": "solo-containers",
    "distinct_hips_merged": 0,
    "matched_prs": 0,
-   "total_prs": 176
+   "total_prs": 179
   },
   {
    "repo": "heka-identity-platform",
    "distinct_hips_merged": 0,
    "matched_prs": 0,
-   "total_prs": 128
+   "total_prs": 134
   },
   {
    "repo": "hiero-hederium",
@@ -239,7 +239,7 @@
    "repo": "hiero-solo-action",
    "distinct_hips_merged": 0,
    "matched_prs": 0,
-   "total_prs": 81
+   "total_prs": 82
   },
   {
    "repo": "homebrew-tools",
@@ -302,6 +302,6 @@
    "total_prs": 5
   }
  ],
- "generated_at": "2026-10-21T14:29:04.295274+00:00",
+ "generated_at": "2026-10-26T16:04:01.974706+00:00",
  "stale": false
 }

@@ -381,10 +381,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-10-21T14:29:54.036689+00:00",
+ "generated_at": "2026-10-26T16:05:05.501309+00:00",
  "provenance": {
   "git_sha": "7b92029",
-  "data_as_of": "2026-10-21T14:23:36.930347+00:00"
+  "data_as_of": "2026-10-26T15:56:45.751930+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -393,7 +393,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1504,
+     "row_count": 1507,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -407,7 +407,7 @@
      "id": "understaffed",
      "macro": "Governance",
      "title": "Repos with one or fewer active maintainers",
-     "row_count": 14,
+     "row_count": 13,
      "path": "hiero-ledger/understaffed.json"
     },
     {
@@ -428,28 +428,28 @@
      "id": "repo",
      "macro": "Governance",
      "title": "Roles and recent activity by repo",
-     "row_count": 760,
+     "row_count": 761,
      "path": "hiero-ledger/repo.json"
     },
     {
      "id": "teams",
      "macro": "Governance",
      "title": "Team activity overview",
-     "row_count": 116,
+     "row_count": 117,
      "path": "hiero-ledger/teams.json"
     },
     {
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2878,
+     "row_count": 2903,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
      "id": "tscrepo",
      "macro": "Governance",
      "title": "TSC activity by repo",
-     "row_count": 108,
+     "row_count": 109,
      "path": "hiero-ledger/tscrepo.json"
     },
     {
@@ -486,7 +486,7 @@
      "id": "teamdiversity",
      "macro": "Governance",
      "title": "Team organisation concentration",
-     "row_count": 111,
+     "row_count": 112,
      "path": "hiero-ledger/teamdiversity.json"
     },
     {
@@ -500,7 +500,7 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 859,
+     "row_count": 862,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
@@ -1167,7 +1167,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-10-21T14:29:04.298598+00:00"
+      "generated_at": "2026-10-26T16:04:01.979332+00:00"
      }
     },
     {
@@ -1243,7 +1243,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-10-21T14:29:04.295274+00:00"
+      "generated_at": "2026-10-26T16:04:01.974706+00:00"
      }
     },
     {
@@ -1530,7 +1530,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1504,
+      "value": 1507,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -1540,7 +1540,7 @@
      },
      {
       "label": "active last month %",
-      "value": "11%",
+      "value": "10%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
@@ -1558,7 +1558,7 @@
      },
      {
       "label": "file issues %",
-      "value": "52%",
+      "value": "51%",
       "note": "The share of contributors who have opened at least one issue.",
       "methodology": [
        "Count contributors whose all-time issues-opened total is above zero.",
@@ -1647,7 +1647,7 @@
      },
      {
       "label": "quiet permission-holders (180d+)",
-      "value": 98,
+      "value": 99,
       "note": "People holding a granted role who have had no tracked activity for 180 days or more \u2014 an access-hygiene list, not a judgement about the people on it.",
       "methodology": [
        "Take everyone holding a triage, committer, or maintainer role in any repository.",
@@ -1705,7 +1705,7 @@
     },
     "contributors": {
      "path": "hiero-ledger/entities/contributors.json",
-     "count": 1504
+     "count": 1507
     }
    }
   },
@@ -2223,7 +2223,7 @@
      },
      {
       "label": "active last month %",
-      "value": "42%",
+      "value": "40%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
@@ -2232,7 +2232,7 @@
      },
      {
       "label": "multi-repo %",
-      "value": "34%",
+      "value": "36%",
       "note": "The share of contributors active in two or more repositories \u2014 how much the contributor base spans the organisation rather than sitting in one project.",
       "methodology": [
        "For each contributor, count the distinct repositories they were active in (all-time).",
@@ -2259,7 +2259,7 @@
      },
      {
       "label": "give reviews %",
-      "value": "54%",
+      "value": "56%",
       "note": "The share of contributors who have reviewed at least one pull request \u2014 the review load's breadth, not its volume.",
       "methodology": [
        "Count contributors whose all-time reviews-given total is above zero.",

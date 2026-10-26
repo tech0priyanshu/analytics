@@ -37,7 +37,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-21T14:29:30.618180+00:00"
+  "end": "2026-10-26T16:04:42.288868+00:00"
  },
  "series": [
   {
@@ -50,15 +50,15 @@
  "rows": [
   {
    "repo": "hiero-enterprise-js",
-   "score": 7.8
+   "score": 7.2
   },
   {
    "repo": "analytics",
-   "score": 9.1
+   "score": 9.3
   },
   {
    "repo": "sdk-automations",
-   "score": 8.5
+   "score": 8.6
   },
   {
    "repo": "hiero-verify-fn",
@@ -81,6 +81,6 @@
    "score": 6.1
   }
  ],
- "generated_at": "2026-10-21T14:29:30.618180+00:00",
+ "generated_at": "2026-10-26T16:04:42.288868+00:00",
  "stale": false
 }

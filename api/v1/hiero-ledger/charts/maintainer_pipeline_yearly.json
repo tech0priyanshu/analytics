@@ -117,8 +117,8 @@
   },
   {
    "bucket": "2024",
-   "general_user": 218,
-   "triage": 0,
+   "general_user": 217,
+   "triage": 1,
    "committer": 52,
    "maintainer": 59,
    "partial": false
@@ -133,13 +133,13 @@
   },
   {
    "bucket": "2026",
-   "general_user": 494,
+   "general_user": 498,
    "triage": 7,
    "committer": 66,
    "maintainer": 79,
    "partial": true
   }
  ],
- "generated_at": "2026-10-21T14:25:31.216145+00:00",
+ "generated_at": "2026-10-26T15:58:40.024049+00:00",
  "stale": false
 }

@@ -600,6 +600,95 @@
    }
   },
   {
+   "key": 1340,
+   "label": "HIP-1340",
+   "sublabel": "EOA Code Delegation",
+   "status": "Approved",
+   "cells": [
+    {
+     "key": "hiero-ledger/hiero-consensus-node",
+     "merged": 6,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node",
+     "merged": 13,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-block-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-java",
+     "merged": 1,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-go",
+     "merged": 0,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-js",
+     "merged": 3,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-cpp",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-rust",
+     "merged": 0,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-swift",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-python",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-json-rpc-relay",
+     "merged": 3,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node-explorer",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/solo",
+     "merged": 1,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-local-node",
+     "merged": 0,
+     "open": 0
+    }
+   ],
+   "note": {
+    "kind": "partial",
+    "text": "go \u00b7 cpp \u00b7 rust \u00b7 swift \u00b7 python",
+    "items": [
+     "go",
+     "cpp",
+     "rust",
+     "swift",
+     "python"
+    ]
+   }
+  },
+  {
    "key": 1313,
    "label": "HIP-1313",
    "sublabel": "High-Volume Entity Creation",
@@ -682,19 +771,19 @@
    }
   },
   {
-   "key": 1340,
-   "label": "HIP-1340",
-   "sublabel": "EOA Code Delegation",
-   "status": "Approved",
+   "key": 1261,
+   "label": "HIP-1261",
+   "sublabel": "Simple Fees",
+   "status": "Final",
    "cells": [
     {
      "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 6,
+     "merged": 8,
      "open": 0
     },
     {
      "key": "hiero-ledger/hiero-mirror-node",
-     "merged": 13,
+     "merged": 6,
      "open": 0
     },
     {
@@ -704,42 +793,42 @@
     },
     {
      "key": "hiero-ledger/hiero-sdk-java",
-     "merged": 1,
+     "merged": 2,
      "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-go",
-     "merged": 0,
-     "open": 1
+     "merged": 2,
+     "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-js",
-     "merged": 3,
-     "open": 1
+     "merged": 1,
+     "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-cpp",
-     "merged": 0,
+     "merged": 1,
      "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-rust",
-     "merged": 0,
-     "open": 1
+     "merged": 1,
+     "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-swift",
-     "merged": 0,
+     "merged": 2,
      "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-python",
-     "merged": 0,
+     "merged": 1,
      "open": 0
     },
     {
      "key": "hiero-ledger/hiero-json-rpc-relay",
-     "merged": 3,
+     "merged": 0,
      "open": 0
     },
     {
@@ -759,15 +848,8 @@
     }
    ],
    "note": {
-    "kind": "partial",
-    "text": "go \u00b7 cpp \u00b7 rust \u00b7 swift \u00b7 python",
-    "items": [
-     "go",
-     "cpp",
-     "rust",
-     "swift",
-     "python"
-    ]
+    "kind": "complete",
+    "text": "\u2713 all SDKs"
    }
   },
   {
@@ -854,88 +936,6 @@
      "java",
      "python"
     ]
-   }
-  },
-  {
-   "key": 1261,
-   "label": "HIP-1261",
-   "sublabel": "Simple Fees",
-   "status": "Final",
-   "cells": [
-    {
-     "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 7,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node",
-     "merged": 6,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-block-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-java",
-     "merged": 2,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-go",
-     "merged": 2,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-js",
-     "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-cpp",
-     "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-rust",
-     "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-swift",
-     "merged": 2,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-python",
-     "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-json-rpc-relay",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node-explorer",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/solo",
-     "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-local-node",
-     "merged": 0,
-     "open": 0
-    }
-   ],
-   "note": {
-    "kind": "complete",
-    "text": "\u2713 all SDKs"
    }
   },
   {
@@ -3099,6 +3099,88 @@
    }
   },
   {
+   "key": 993,
+   "label": "HIP-993",
+   "sublabel": "Improve record stream legibility and extensibility",
+   "status": "Final",
+   "cells": [
+    {
+     "key": "hiero-ledger/hiero-consensus-node",
+     "merged": 1,
+     "open": 1
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-block-node",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-java",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-go",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-js",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-cpp",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-rust",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-swift",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-sdk-python",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-json-rpc-relay",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-mirror-node-explorer",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/solo",
+     "merged": 0,
+     "open": 0
+    },
+    {
+     "key": "hiero-ledger/hiero-local-node",
+     "merged": 0,
+     "open": 0
+    }
+   ],
+   "note": {
+    "kind": "none",
+    "text": "no SDK activity found"
+   }
+  },
+  {
    "key": 906,
    "label": "HIP-906",
    "sublabel": "Proxy Redirect Contract for Hbar Allowance and Approval",
@@ -3947,88 +4029,6 @@
     {
      "key": "hiero-ledger/hiero-mirror-node",
      "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-block-node",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-java",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-go",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-js",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-cpp",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-rust",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-swift",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-sdk-python",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-json-rpc-relay",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node-explorer",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/solo",
-     "merged": 0,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-local-node",
-     "merged": 0,
-     "open": 0
-    }
-   ],
-   "note": {
-    "kind": "none",
-    "text": "no SDK activity found"
-   }
-  },
-  {
-   "key": 993,
-   "label": "HIP-993",
-   "sublabel": "Improve record stream legibility and extensibility",
-   "status": "Final",
-   "cells": [
-    {
-     "key": "hiero-ledger/hiero-consensus-node",
-     "merged": 1,
-     "open": 0
-    },
-    {
-     "key": "hiero-ledger/hiero-mirror-node",
-     "merged": 0,
      "open": 0
     },
     {
@@ -13563,6 +13563,6 @@
  ],
  "evidence_section": "hip-evidence",
  "macro": "HIPs",
- "generated_at": "2026-10-21T14:29:04.294689+00:00",
+ "generated_at": "2026-10-26T16:04:01.973886+00:00",
  "stale": false
 }
